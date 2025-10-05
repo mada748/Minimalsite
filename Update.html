@@ -337,20 +337,20 @@
           .then(response => {
             
                 if (!response.ok) {
-                    // Check for HTTP errors (like 404 or a CORS block)
+                    // this checks for http errors
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
-                return response.text(); // Get the plain text of the .md file
+                return response.text(); 
             })
             .then(markdownText => {
-                // 3. Convert Markdown to HTML
+                
                 const htmlContent = marked.parse(markdownText);
                 
-                // 4. Inject the HTML into the page
+                // getting things
                 document.getElementById('markdown-output').innerHTML = htmlContent;
             })
             .catch(error => {
-                // ❗ This is where the CORS error will appear if it fails.
+                // fail mechanic.
                 document.getElementById('markdown-output').innerHTML = `
                     <p style="color: red;">Error loading Markdown content:</p>
                     <pre>${error.message}. Check the Console for CORS errors!</pre>
