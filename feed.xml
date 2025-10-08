@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Minimal Browser</title>
+    <link>https://minimalsite-zeta.vercel.app</link>
+    <description>Minimal Browser is a browser programmed in python made for minimalist people</description>
+    
+    <language>en-us</language>
+    <pubDate> 18:30:02 GMT</pubDate>
+    <lastBuildDate>10/05/25 10:46 GMT</lastBuildDate>
+    <copyright>UPSIDEDOWNPRODUCTION LLC</copyright>
+
+    
+    </channel>
+</rss>
