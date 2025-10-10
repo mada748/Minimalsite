@@ -155,9 +155,21 @@
             padding: 20px 0;
             border-top: 1px solid #333;
         }
-        #escape-button {
-            position: releative;
-        }
+       #escape-button {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           padding: 1em 2em;
+           font-size: 20px;
+           background-color: #00A2FF;
+           color: #fff;
+           border: none;
+           border-radius: 6px;
+           font-family: 'IBM Plex Sans';
+           box-sizing: border-box;
+           box-shadow: 0 4px 15px rgba(0, 162, 255, 0.4);
+       }
         </style>
         <title>Minimal: The perfect minimal browser</title>        
     </head>
@@ -175,4 +187,4 @@
     <div class="feature-card">
       <h1> Get the button for downloading the android app!</h1>
     </div>
-    <button id="escape-button" class="btn btn-roblox">Click Here!</button>
+    <button id="escape-button" >Click Here!</button>
