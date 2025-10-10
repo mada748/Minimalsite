@@ -51,8 +51,8 @@ function calculateDistance(mouseX, mouseY, buttonX, buttonY) {
 
 function updateButtonText() {
   var texts = [
-    "YOUR ANDROID IS HERE",
-    "C'mon is only a .apk",
+    "Catch me",
+    "C'mon, CLICK",
     "I can do this forever",
     "You're so close!",
     "CLICK ON ME",
@@ -63,7 +63,7 @@ function updateButtonText() {
     "You do this everyday",
     "How hard can it be?",
     "I'm right HERE",
-    "Click to GET ANDROID APK FILE!!!",
+    "Click to WIN!!!",
     "Skill issue...",
     "Game Over bro",
     "Catch me if you can",
@@ -74,7 +74,7 @@ function updateButtonText() {
     "OVER HERE",
     "Click me, it's FREE!",
     "WHAT are you doing?",
-    "OMG ",
+    "OMG 😂",
     "You're missing out!",
     "I'm still here...",
     "Try again, loser",
@@ -104,7 +104,7 @@ function updateButtonText() {
     "I'm still running...",
     "Can't touch this!",
     "You're not quick enough",
-    "I'm just too fast ",
+    "I'm just too fast 🤷‍♂️",
     "You'll never get this",
     "I'm always one step ahead",
     "You're not even close",
@@ -114,7 +114,7 @@ function updateButtonText() {
     "You're chasing shadows",
     "I'm a figment of your imagination",
     "You're fishing in the air",
-    "Android never again"
+    "Yaaaawn -o-"
 
 
   ];
