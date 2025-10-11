@@ -1,0 +1,32 @@
+
+:root {
+    --bg-color: #000000;
+    --illumination-y: 100vh;
+}
+
+.illuminated-body {
+    background-color: #000000; 
+    
+    background-image: 
+        radial-gradient(
+            circle at 50% var(--illumination-y), 
+            #B2DDFF 0%,                      
+            #000000 70%                       
+        );
+    
+
+    background-attachment: fixed; 
+    
+
+    transition: background-position 0.3s ease-out;
+    
+    margin: 0;
+    color: white; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1, p {
+    z-index: 10;
+    position: relative;
+}
