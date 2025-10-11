@@ -23,7 +23,7 @@ window.addEventListener('scroll', () => {
     
     const newColor = `rgb(${r}, ${g}, ${b})`;
     
-    /
+    
     document.documentElement.style.setProperty('--bg-color', newColor);
 });
 
