@@ -1,9 +1,10 @@
 
 const SCROLL_DISTANCE = 700; 
 
-const startR = 100;
-const startG = 100;
-const startB = 100;
+
+const startR = 26;
+const startG = 26;
+const startB = 26;
 
 const endR = 0;
 const endG = 0;
