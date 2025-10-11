@@ -1,18 +1,17 @@
 
-const SCROLL_DISTANCE = 500; 
+const SCROLL_DISTANCE = 700; 
 
 const startR = 0;
 const startG = 0;
 const startB = 0;
 
-
-const endR = 0;
-const endG = 0;
+const endR = 178;
+const endG = 221;
 const endB = 255; 
-
 
 window.addEventListener('scroll', () => {
     const scrollY = window.scrollY;
+
 
     let ratio = Math.min(scrollY / SCROLL_DISTANCE, 1);
     
@@ -23,8 +22,8 @@ window.addEventListener('scroll', () => {
     
     const newColor = `rgb(${r}, ${g}, ${b})`;
     
-    
     document.documentElement.style.setProperty('--bg-color', newColor);
 });
+
 
 window.dispatchEvent(new Event('scroll'));
