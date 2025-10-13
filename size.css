@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .feature-card {
+    display: flex;
+    justify-content: space-between;
+   }
+  body {
+    font-size: 8px;
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px; 
+  }
+  feature-card {
+    width: 50%
+ }
+}
