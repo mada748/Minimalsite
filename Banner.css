@@ -1,4 +1,5 @@
         .banner {
+            border-radius: 10px;
             background-color: white;
             color: black;
             border: 1px solid #ccc;
