@@ -7,7 +7,7 @@ document.getElementById('suggestion-form').addEventListener('submit', function(e
     const body = encodeURIComponent(document.getElementById('suggestion-body').value);
 
 
-    const url = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${title}&body=${body}&labels=suggestion`;
+    const url = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${title}&body=${body}&labels=Suggestion`;
 
 
     window.open(url, '_blank');
