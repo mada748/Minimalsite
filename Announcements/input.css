@@ -1,0 +1,32 @@
+.minimal-input {
+  padding: 10px 15px; 
+  width: 100%; 
+  box-sizing: border-box; 
+  
+  
+  background-color: #2e2e2e;
+  color: #ffffff; 
+  border: 1px solid #444444; 
+  
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  font-size: 16px; 
+  
+  
+  border-radius: 6px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+.minimal-input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none; 
+}
+
+
+.minimal-input::placeholder {
+  color: #aaaaaa; 
+  opacity: 1; 
+}
+
