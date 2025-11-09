@@ -14,5 +14,11 @@
   transition: all 0.3s ease;
 }
 
-
+code {
+    background-color: #444444; 
+    color: #00ffaa; 
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace; 
+    font-size: 0.9em
 
