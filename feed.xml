@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>Minimal Browser</title>
@@ -6,8 +6,8 @@
     <description>Minimal Browser is a browser programmed in python made for minimalist people</description>
     
     <language>en-us</language>
-    <pubDate>15:36 PM</pubDate>
-    <lastBuildDate>19/11/25 15:36 PM</lastBuildDate>
+    <pubDate>Wed, 19 Nov 2025 15:36:00 +0100</pubDate>
+    <lastBuildDate>Wed, 19 Nov 2025 15:36:00 +0100</lastBuildDate>
     <item>
       <title>This RSS feed is deprecated</title>
       <description>I have no longer the will to update this rss feed so it is officialy deprecated and will be removed on 22/11/25. Thanks for reading</description>
