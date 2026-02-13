@@ -1,4 +1,19 @@
-
+async function startCamera() {
+    try {
+        
+        const stream = await navigator.mediaDevices.getUserMedia({ 
+            video: true, 
+            audio: false 
+        });
+        
+        
+        const videoElement = document.querySelector('#myVideo');
+        videoElement.srcObject = stream;
+    } catch (error) {
+        console.error("Error accessing camera: ", error);
+        alert("Could not access camera. Please ensure permissions are granted.");
+    }
+}
 const SCROLL_DISTANCE = 700; 
 
 
