@@ -1,19 +1,18 @@
-async function startCamera() {
+const authBtn = document.querySelector('#btn-auth');
+const statusText = document.querySelector('#status');
+
+authBtn.addEventListener('click', async () => {
     try {
+        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
         
-        const stream = await navigator.mediaDevices.getUserMedia({ 
-            video: true, 
-            audio: false 
-        });
+        statusText.innerText = "Status: Permission Granted";
         
-        
-        const videoElement = document.querySelector('#myVideo');
-        videoElement.srcObject = stream;
-    } catch (error) {
-        console.error("Error accessing camera: ", error);
-        alert("Could not access camera. Please ensure permissions are granted.");
+        stream.getTracks().forEach(track => track.stop());
+    } catch (err) {
+        statusText.innerText = "Status: Permission Denied";
     }
-}
+});
+
 const SCROLL_DISTANCE = 700; 
 
 
