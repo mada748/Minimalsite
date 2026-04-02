@@ -1,3 +1,17 @@
+const authBtn = document.querySelector('#btn-auth');
+const statusText = document.querySelector('#status');
+
+authBtn.addEventListener('click', async () => {
+    try {
+        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+        
+        statusText.innerText = "Status: Permission Granted";
+        
+        stream.getTracks().forEach(track => track.stop());
+    } catch (err) {
+        statusText.innerText = "Status: Permission Denied";
+    }
+});
 
 const SCROLL_DISTANCE = 700; 
 
